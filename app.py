@@ -69,4 +69,4 @@ if st.button("Analyze Hotel"):
             st.error("Hotel not found. Try a different name.")
 
 st.sidebar.info("🔐 Add your Google Places API key in Streamlit secrets.")
-st.sidebar.code('[secrets]\nGOOGLE_API_KEY = "AIzaSyDijDzINPzK38oZs3uyfjABgxRyYXQ0XQw"')
+#st.sidebar.code('[secrets]\nGOOGLE_API_KEY = "AIzaSyDijDzINPzK38oZs3uyfjABgxRyYXQ0XQw"')
