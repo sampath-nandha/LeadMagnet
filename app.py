@@ -9,7 +9,8 @@ st.set_page_config(page_title="Hotel Metrics Analyzer", layout="wide")
 st.title("🏨 Hotel Metrics & Review Analyzer")
 
 # Google Maps API Setup
-API_KEY = st.secrets["GOOGLE_API_KEY"]  # Store your API key in Streamlit secrets
+#API_KEY = st.secrets["GOOGLE_API_KEY"]  # Store your API key in Streamlit secrets
+API_KEY = "AIzaSyDijDzINPzK38oZs3uyfjABgxRyYXQ0XQw"
 
 gmaps = googlemaps.Client(key=API_KEY)
 
