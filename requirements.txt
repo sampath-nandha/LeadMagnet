@@ -1,0 +1,8 @@
+streamlit
+googlemaps
+pandas
+matplotlib
+wordcloud
+beautifulsoup4
+requests
+plotly
