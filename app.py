@@ -60,9 +60,9 @@ if st.button("Analyze Hotel"):
                 st.subheader("📝 Customer Reviews")
                 st.dataframe(df_reviews)
 
-                st.subheader("🔍 WordCloud from Reviews")
-                wc = generate_wordcloud(df_reviews['Text'].tolist())
-                st.image(wc.to_array(), use_column_width=True)
+                #st.subheader("🔍 WordCloud from Reviews")
+                #wc = generate_wordcloud(df_reviews['Text'].tolist())
+                #st.image(wc.to_array(), use_column_width=True)
             else:
                 st.warning("No reviews found for this hotel.")
         else:
